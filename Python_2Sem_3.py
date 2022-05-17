@@ -2,7 +2,7 @@ import pandas
 import matplotlib.pyplot as plt
 import seaborn
 
-data = pandas.read_csv('honey.csv', index_col=0)
+data = pandas.read_csv('practice.csv', index_col=0)
 
 seaborn.barplot(x=data['week_number'], y=data['installs'])
 plt.show()
